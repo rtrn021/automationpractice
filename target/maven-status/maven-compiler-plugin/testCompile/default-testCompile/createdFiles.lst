@@ -1,0 +1,15 @@
+com\automationpractice\User\User.class
+com\automationpractice\pages\MyAccount.class
+com\automationpractice\utils\Driver.class
+com\automationpractice\utils\BrowserUtils.class
+com\automationpractice\steps\ProductDetails.class
+com\automationpractice\pages\CreateAccountPage.class
+com\automationpractice\steps\Register.class
+com\automationpractice\pages\HomePage.class
+com\automationpractice\pages\LoginPage.class
+com\automationpractice\Product\Dress.class
+com\automationpractice\runners\CukesRunner.class
+com\automationpractice\utils\ConfigurationReader.class
+com\automationpractice\pages\ProductPage.class
+com\automationpractice\utils\Pages.class
+com\automationpractice\steps\Hook.class

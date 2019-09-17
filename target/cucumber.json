@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-17T21:44:06.308Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10014027900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User Register to page and Confirm added product",
+        "description": "",
+        "id": "register-and-add-to-cart;user-register-to-page-and-confirm-added-product",
+        "after": [
+          {
+            "result": {
+              "duration": 823026000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2113774500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on homepage",
+            "match": {
+              "location": "Register.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1664576500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User register with an email",
+            "match": {
+              "location": "Register.user_register_with_an_email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4996925300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fill all required field and clicks to register",
+            "match": {
+              "location": "Register.user_fill_all_required_field_and_clicks_to_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1605492000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is registered",
+            "match": {
+              "location": "Register.user_is_registered()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1528686800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User logs in to account with user credentials",
+            "match": {
+              "location": "ProductDetails.user_logs_in_to_account_with_user_credentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1294517800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Search for the \"Summer Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Summer Dress\"",
+                  "offset": 20
+                }
+              ],
+              "location": "ProductDetails.user_Search_for_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4013905300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User choose the product",
+            "match": {
+              "location": "ProductDetails.user_choose_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 835000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User confirm the product details",
+            "match": {
+              "location": "ProductDetails.user_confirm_the_product_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@task"
+          }
+        ]
+      }
+    ],
+    "name": "Register and Add to Cart",
+    "description": "",
+    "id": "register-and-add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/task.feature",
+    "tags": [
+      {
+        "name": "@task",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
